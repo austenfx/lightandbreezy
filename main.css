@@ -7,7 +7,7 @@ body{
     background-color: var(--breezycolour);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
-
+    text-align: center;
 }
 
 header{
@@ -16,6 +16,17 @@ header{
     justify-content: center;
     align-items: center;
     padding: 10px;
+    padding-bottom: 0px;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 40px;
+}
+
+header h2{
+    font-size: 30px;
+    color: var(--fgcolour);
 }
 
 .logo{
@@ -54,4 +65,15 @@ section{
 
 .info-text{
     text-align: center;
+}
+
+footer{
+    background-color: var(--fgcolour);
+    margin: 0px;
+    color: var(--lightcolour);
+
+}
+
+footer a{
+    color: var(--lightcolour);
 }
