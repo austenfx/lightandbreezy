@@ -1,0 +1,14 @@
+body{
+    --lightcolour: #fffd0c;
+    --breezycolour: #d5ffff;
+    --bgcolour: #07c2ff;
+    --fgcolour: #006bff;
+
+    background-color: var(--breezycolour);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: var(--bgcolour);
+
+}
